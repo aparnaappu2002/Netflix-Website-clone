@@ -102,19 +102,31 @@ div.splash div.background img{
 }
 .form{
     display: flex;
-    gap: 100px;
+    margin-left: 650px;
     align-items: center;
     justify-content: space-between;
     grid-template-columns: max-content 1fr;
+    margin-top: -45px;
 }
 div.form input{
     display: flex;
     margin-left: 7px;
-    
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 350px;
+    margin: 1rem auto 0;
+   
+    line-height: 1.7;
+    background: transparent;
+    border: 1px solid;
+    border-color: gray;
+    align-items: center;
+    justify-content: center;
+
 }
 div.form button{
     display: flex;
-    margin-left: 80px;
+    margin-left: 10px;
     
 }
 div.splash{
@@ -165,17 +177,7 @@ div.splash h3{
 
 } 
 div.splash  input{
-    padding: 10px;
-    font-size: 1.2rem;
-    max-width: 36.625rem;
-    margin: 1rem auto 0;
-    width:33%;
-    line-height: 1.7;
-    background: transparent;
-    border: 1px solid;
-    border-color: gray;
-    margin-left: 660px;
-
+    
     
    
 }
