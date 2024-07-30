@@ -56,6 +56,7 @@ header{
     border: 0;
     display: inline-block;
 }
+
 .language{
     
     padding: 6px 22px;
@@ -92,6 +93,29 @@ div.splash div.background img{
     
     object-fit: cover;
     height: 700px;
+}
+.center{
+   
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: max-content 1fr;
+}
+div.form input{
+    display: flex;
+    margin-left: 7px;
+    
+}
+div.form button{
+    display: flex;
+    margin-left: 80px;
+    
 }
 div.splash{
     position: relative;
