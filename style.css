@@ -177,6 +177,9 @@ div.splash h3{
 
 } 
 div.splash  input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
    
